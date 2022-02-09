@@ -396,7 +396,7 @@ public class HomePageTest extends BaseTest {
 
 			LoginPage login = new LoginPage(driver);
 			login.userLogin(mobileNumber, Password);
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			HomePage homepage = new HomePage(driver);
 			homepage.searchProduct(productName);
 			Thread.sleep(2000);

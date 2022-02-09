@@ -214,7 +214,7 @@ public class ProductPageTest extends BaseTest {
 
 			logger.info("Save for later Button was clicked");
 
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 
 			String actualResult = product.saveforLaterMessage.getText();
 			extentTest.log(LogStatus.INFO, actualResult);

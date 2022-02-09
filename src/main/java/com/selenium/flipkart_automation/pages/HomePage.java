@@ -122,8 +122,7 @@ public class HomePage {
 	
 
 	public void searchProduct(String productName) throws InterruptedException {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		navigateToSearchBox.sendKeys(productName);
 		Thread.sleep(3000);
 		searchIcon.click();

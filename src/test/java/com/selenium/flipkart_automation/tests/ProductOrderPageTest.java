@@ -93,6 +93,7 @@ public class ProductOrderPageTest extends BaseTest {
 			
 			ProductOrderPage orderPage = new ProductOrderPage(driver); 
 			orderPage.clickOnOrderButton();
+			Thread.sleep(3000);
 			orderPage.filterByOrderStatus();
 			
 			logger.info("Status Button was clicked");

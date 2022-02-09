@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,019.304" tests="20" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\bhagyameena\.m2\repository\webdriver\chromedriver\win32\97.0.4692.71\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\target\test-classes;C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\target\classes;C:\Users\bhagyameena\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\bhagyameena\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\bhagyameena\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bhagyameena\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bhagyameena\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\bhagyameena\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\bhagyameena\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\bhagyameena\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\bhagyameena\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\bhagyameena\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\bhagyameena\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bhagyameena\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\bhagyameena\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\bhagyameena\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\bhagyameena\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\bhagyameena\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\bhagyameena\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\bhagyameena\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\bhagyameena\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\bhagyameena\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\bhagyameena\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\bhagyameena\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\bhagyameena\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\bhagyameena\Downloads\openjdk-11+28_windows-x64_bin\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\bhagyameena\AppData\Local\Temp\surefire15330816887391575291\surefirebooter2180617947878488377.jar C:\Users\bhagyameena\AppData\Local\Temp\surefire15330816887391575291 2022-02-09T21-00-26_365-jvmRun1 surefire3228466333473906023tmp surefire_011335663690753730701tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\target\test-classes;C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\target\classes;C:\Users\bhagyameena\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\bhagyameena\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\bhagyameena\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\bhagyameena\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\bhagyameena\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\bhagyameena\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\bhagyameena\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\bhagyameena\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\bhagyameena\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\bhagyameena\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\bhagyameena\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\bhagyameena\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\bhagyameena\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\bhagyameena\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\bhagyameena\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\bhagyameena\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\bhagyameena\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\bhagyameena\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\bhagyameena\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\bhagyameena\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\bhagyameena\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\bhagyameena\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\bhagyameena\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\bhagyameena\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\bhagyameena\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\bhagyameena\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\bhagyameena\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\bhagyameena\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bhagyameena"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Users\bhagyameena\Downloads\openjdk-11+28_windows-x64_bin\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\bhagyameena\AppData\Local\Temp\surefire15330816887391575291\surefirebooter2180617947878488377.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="bhagyameena"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\bhagyameena\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\BHAGYA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\bhagyameena\Downloads\openjdk-11+28_windows-x64_bin\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\apache-maven-3.8.3\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\bhagyameena\Downloads\openjdk-11+28_windows-x64_bin\jdk-11\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\bhagyameena\AppData\Local\Android\Sdk\tools;C:\Users\bhagyameena\AppData\Local\Android\Sdk\platform-tools;C:\Users\bhagyameena\AppData\Local\Android\Sdk\platforms;C:\Users\bhagyameena\AppData\Local\Microsoft\WindowsApps;C:\Users\bhagyameena\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="inValidLogIn" classname="com.selenium.flipkart_automation.tests.LoginPageTest" time="4.48"/>
+  <testcase name="validLogIn" classname="com.selenium.flipkart_automation.tests.LoginPageTest" time="0.405"/>
+  <testcase name="userLogout" classname="com.selenium.flipkart_automation.tests.LogoutPageTest" time="29.872"/>
+  <testcase name="changePriceByFilter" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="29.573"/>
+  <testcase name="checkReviewsAndRating" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="29.524"/>
+  <testcase name="clickOnBackToButton" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="425.147"/>
+  <testcase name="clickOnNextPageButtons" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="43.107"/>
+  <testcase name="logoButtonFunctionality" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="13.045"/>
+  <testcase name="searchFunctionality" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="13.801"/>
+  <testcase name="sortingFunctionality" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="10.904">
+    <failure message="element click intercepted: Element &lt;div class=&quot;_10UF8M _3LsR0e&quot;&gt;...&lt;/div&gt; is not clickable at point (730, 163). Other element would receive the click: &lt;a title=&quot;...&quot; class=&quot;_3QN6WI&quot; href=&quot;/home-furnishing/curtains-accessories/curtains/pr?sid=jra,sl5,2va&amp;amp;marketplace=FLIPKART&amp;amp;otracker=nmenu_sub_Home%20%26%20Furniture_0_Curtains&quot;&gt;Curtains&lt;/a&gt;&#10;  (Session info: chrome=98.0.4758.82)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHAGYAMEENA1&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d0851c9f7069597cf9df1dc30dc7c11b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="_10UF8M _3LsR0e">...</div> is not clickable at point (730, 163). Other element would receive the click: <a title="..." class="_3QN6WI" href="/home-furnishing/curtains-accessories/curtains/pr?sid=jra,sl5,2va&amp;marketplace=FLIPKART&amp;otracker=nmenu_sub_Home%20%26%20Furniture_0_Curtains">Curtains</a>
+  (Session info: chrome=98.0.4758.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0851c9f7069597cf9df1dc30dc7c11b
+	at com.selenium.flipkart_automation.tests.HomePageTest.sortingFunctionality(HomePageTest.java:100)
+]]></failure>
+    <system-out><![CDATA[02-09-2022 21:11:20 BaseTest.java INFO  [main] tests.BaseTest 150 - Browser closed...
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserSortTheProduct
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Working : yes
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - UserName : 8770095177
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Description : This test case is for checking the user is should be able to sort the items 
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Execution Required : yes
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Product Name : One Plus
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Prerequirement : User should be on Product Page 
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - TestCaseName : whenUserSortTheProduct
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Expected Result : Price -- High to Low
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 28 - Password : Bhagyashree#123%
+02-09-2022 21:11:25 CommonUtils.java INFO  [main] tests.BaseTest 34 - ----------------------------------------------------------------------
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Chrome 97 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\bhagyameena\.m2\repository\webdriver\chromedriver\win32\97.0.4692.71\chromedriver.exe
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 28878
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1644421281.595][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 09, 2022 9:11:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="wishlistFunctionality" classname="com.selenium.flipkart_automation.tests.HomePageTest" time="37.136"/>
+  <testcase name="addToCart" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="25.845"/>
+  <testcase name="changeProductSize" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="27.692"/>
+  <testcase name="clickFunctionality" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="21.812"/>
+  <testcase name="clickOnAddToCompare" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="31.25"/>
+  <testcase name="clickOnAskExpertButton" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="32.07"/>
+  <testcase name="removeItemFromCart" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="48.283">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;._1LCJ1U&quot;}&#10;  (Session info: chrome=98.0.4758.82)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BHAGYAMEENA1&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: efb5545d7b0772ae4faf7a0a56ccbf76&#10;*** Element info: {Using=class name, value=_1LCJ1U}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"._1LCJ1U"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efb5545d7b0772ae4faf7a0a56ccbf76
+*** Element info: {Using=class name, value=_1LCJ1U}
+	at com.selenium.flipkart_automation.tests.ProductPageTest.removeItemFromCart(ProductPageTest.java:276)
+]]></failure>
+    <system-out><![CDATA[02-09-2022 21:15:12 BaseTest.java INFO  [main] tests.BaseTest 150 - Browser closed...
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 18 - ----------------------------------------------------------------------
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickToRemoveItemFromCart
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Working : yes
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - UserName : 8770095177
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Description : This test case is for checking the user should be able to remove product from the cart
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Execution Required : yes
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Product Name : One Plus
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Prerequirement : User should be on My cart page
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - TestCaseName : whenUserClickToRemoveItemFromCart
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Expected Result : Your cart is empty!
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 28 - Password : Bhagyashree#123%
+02-09-2022 21:15:17 CommonUtils.java INFO  [main] tests.BaseTest 34 - ----------------------------------------------------------------------
+02-09-2022 21:15:52 ProductPageTest.java INFO  [main] tests.BaseTest 273 - Remove Button was clicked
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Please answer the following questionnaire based on your experience with WebDriverManager. Thanks a lot!
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - ====> http://tiny.cc/wdm-survey <====
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Chrome 97 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\bhagyameena\.m2\repository\webdriver\chromedriver\win32\97.0.4692.71\chromedriver.exe
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 5324
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1644421513.526][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 09, 2022 9:15:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="saveForLaterItemFromCart" classname="com.selenium.flipkart_automation.tests.ProductPageTest" time="32.993"/>
+  <testcase name="clickFunctionality" classname="com.selenium.flipkart_automation.tests.ProductOrderPageTest" time="10.04"/>
+  <testcase name="filterByOrderStatus" classname="com.selenium.flipkart_automation.tests.ProductOrderPageTest" time="15.136"/>
+</testsuite>

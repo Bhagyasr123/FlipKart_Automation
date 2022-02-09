@@ -1,0 +1,274 @@
+2022-02-09 22:44:36,704  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:44:36,707  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageTestData And For Test Case whenUserEntersValidMobileNumberAndInvalidPassword
+ 2022-02-09 22:44:36,707  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:44:36,707  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:44:36,708  INFO [main] BaseTest:28 - Description : This test case is for checking the invalid user is not able to login
+ 2022-02-09 22:44:36,708  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:44:36,709  INFO [main] BaseTest:28 - Prerequirement : Browser should be installed: Chorme or Edge or Mozilla
+ 2022-02-09 22:44:36,710  INFO [main] BaseTest:28 - TestCaseName : whenUserEntersValidMobileNumberAndInvalidPassword
+ 2022-02-09 22:44:36,711  INFO [main] BaseTest:28 - Expected Result : Your username or password is incorrect
+ 2022-02-09 22:44:36,712  INFO [main] BaseTest:28 - Password : Bhagyashree 
+ 2022-02-09 22:44:36,712  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:44:37,032  INFO [main] BaseTest:85 - Login Button was clicked
+ 2022-02-09 22:44:41,847  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:44:47,244  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:44:47,245  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogInPageTestData And For Test Case whenUserEntersValidMobileNumberAndPassword
+ 2022-02-09 22:44:47,246  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:44:47,248  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:44:47,249  INFO [main] BaseTest:28 - Description : This test case is for checking the valid user is able to login 
+ 2022-02-09 22:44:47,249  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:44:47,250  INFO [main] BaseTest:28 - Prerequirement : User should be Registered &Browser should be installed: Chorme or Edge or Mozilla
+ 2022-02-09 22:44:47,251  INFO [main] BaseTest:28 - TestCaseName : whenUserEntersValidMobileNumberAndPassword
+ 2022-02-09 22:44:47,251  INFO [main] BaseTest:28 - Expected Result : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 22:44:47,252  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:44:47,252  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:44:47,548  INFO [main] BaseTest:46 - Login Button was clicked
+ 2022-02-09 22:44:48,268  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:44:53,359  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:44:53,360  INFO [main] BaseTest:21 - Test Data For Worksheet Name LogoutPageTestData And For Test Case whenUserClickToLogout
+ 2022-02-09 22:44:53,362  INFO [main] BaseTest:28 - AdditionalInfo : This is test check
+ 2022-02-09 22:44:53,363  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:44:53,364  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:44:53,364  INFO [main] BaseTest:28 - Description : This test case is for checking the valid user is able to logout
+ 2022-02-09 22:44:53,365  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:44:53,365  INFO [main] BaseTest:28 - Prerequirement : User should be Logged in
+ 2022-02-09 22:44:53,365  INFO [main] BaseTest:28 - TestCaseName : whenUserClickToLogout
+ 2022-02-09 22:44:53,366  INFO [main] BaseTest:28 - Expected Result : New to Flipkart? Create an account
+ 2022-02-09 22:44:53,366  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:44:53,366  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:45:17,079  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:45:22,357  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:45:22,358  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserClickOnCustomerRating
+ 2022-02-09 22:45:22,359  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:45:22,359  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:45:22,359  INFO [main] BaseTest:28 - Description : This test case is for checking user should be able to sort products by customer ratings 
+ 2022-02-09 22:45:22,360  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:45:22,360  INFO [main] BaseTest:28 - Product Name : Choclates
+ 2022-02-09 22:45:22,360  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:45:22,361  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnCustomerRating
+ 2022-02-09 22:45:22,361  INFO [main] BaseTest:28 - Expected Result : Clear all
+ 2022-02-09 22:45:22,361  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:45:22,362  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:45:53,743  INFO [main] BaseTest:255 - Filter Button was clicked
+ 2022-02-09 22:45:54,502  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:46:00,138  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:46:00,138  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserHoverOnReviewIcon
+ 2022-02-09 22:46:00,139  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:46:00,139  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:46:00,139  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to see reviews and ratings of the products
+ 2022-02-09 22:46:00,139  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:46:00,140  INFO [main] BaseTest:28 - Product Name : Choclates
+ 2022-02-09 22:46:00,140  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:46:00,140  INFO [main] BaseTest:28 - TestCaseName : whenUserHoverOnReviewIcon
+ 2022-02-09 22:46:00,142  INFO [main] BaseTest:28 - Expected Result : "true"
+ 2022-02-09 22:46:00,143  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:46:00,143  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:46:26,494  INFO [main] BaseTest:305 - Rating and Review Icon was hover
+ 2022-02-09 22:46:32,301  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:46:37,470  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:46:37,470  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserClickOnBackToTopButton
+ 2022-02-09 22:46:37,470  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:46:37,470  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Description : This test case is for checking when user click on back to top button it will move to the top of the page immediately
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnBackToTopButton
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Expected Result : Show results for One Plus instead
+ 2022-02-09 22:46:37,471  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:46:37,472  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:47:00,809  INFO [main] BaseTest:356 - Back To Top Button was clicked
+ 2022-02-09 22:47:01,587  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:47:07,378  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:47:07,378  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserClickOnNextPageButton
+ 2022-02-09 22:47:07,378  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:47:07,378  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Description : This test case is for checking user should be able to move to the next page
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnNextPageButton
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Expected Result : PREVIOUS
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:47:07,379  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:47:40,138  INFO [main] BaseTest:406 - Next Page Button was clicked
+ 2022-02-09 22:47:40,890  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:47:48,936  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:47:48,936  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserClickOnLogoButton
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - Description : This test case is for checking that when user click on logo button, it will redirect user to the home page 
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnLogoButton
+ 2022-02-09 22:47:48,938  INFO [main] BaseTest:28 - Expected Result : Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+ 2022-02-09 22:47:48,939  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:47:48,939  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:00,816  INFO [main] BaseTest:153 - Logo Button was clicked
+ 2022-02-09 22:48:01,531  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:48:07,313  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:07,314  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserSearchTheProduct
+ 2022-02-09 22:48:07,314  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:48:07,314  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:48:07,314  INFO [main] BaseTest:28 - Description : This test case is for checking the user is should be able to search any item 
+ 2022-02-09 22:48:07,315  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:48:07,315  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:48:07,315  INFO [main] BaseTest:28 - Prerequirement : Page should load by after a get request of https://www.flipkart.com/
+ 2022-02-09 22:48:07,315  INFO [main] BaseTest:28 - TestCaseName : whenUserSearchTheProduct
+ 2022-02-09 22:48:07,315  INFO [main] BaseTest:28 - Expected Result : One Plus- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+ 2022-02-09 22:48:07,316  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:48:07,316  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:21,903  INFO [main] BaseTest:52 - Search Icon Button was clicked
+ 2022-02-09 22:48:23,621  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:48:28,975  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:28,976  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserSortTheProduct
+ 2022-02-09 22:48:28,976  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:48:28,976  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:48:28,977  INFO [main] BaseTest:28 - Description : This test case is for checking the user is should be able to sort the items 
+ 2022-02-09 22:48:28,977  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:48:28,977  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:48:28,978  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:48:28,978  INFO [main] BaseTest:28 - TestCaseName : whenUserSortTheProduct
+ 2022-02-09 22:48:28,978  INFO [main] BaseTest:28 - Expected Result : Price -- High to Low
+ 2022-02-09 22:48:28,979  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:48:28,980  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:40,669  INFO [main] BaseTest:103 - Sorting Button was clicked
+ 2022-02-09 22:48:41,430  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:48:46,215  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:48:46,216  INFO [main] BaseTest:21 - Test Data For Worksheet Name HomePageTestData And For Test Case whenUserAddProductIntoWishlist
+ 2022-02-09 22:48:46,216  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:48:46,216  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:48:46,216  INFO [main] BaseTest:28 - Description : This test case is for checking the user is should be able toadd product into the wishlist
+ 2022-02-09 22:48:46,217  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:48:46,217  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:48:46,217  INFO [main] BaseTest:28 - Prerequirement : User should be on Product Page 
+ 2022-02-09 22:48:46,217  INFO [main] BaseTest:28 - TestCaseName : whenUserAddProductIntoWishlist
+ 2022-02-09 22:48:46,218  INFO [main] BaseTest:28 - Expected Result : My Wishlist
+ 2022-02-09 22:48:46,218  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:48:46,218  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:49:25,287  INFO [main] BaseTest:203 - Wishlist Button was clicked
+ 2022-02-09 22:49:26,002  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:49:31,673  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickOnAddToCart
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to add product into the cart
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:49:31,674  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:49:31,675  INFO [main] BaseTest:28 - Prerequirement : User should be on particular product page
+ 2022-02-09 22:49:31,675  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnAddToCart
+ 2022-02-09 22:49:31,675  INFO [main] BaseTest:28 - Expected Result : Shopping Cart | Flipkart.com
+ 2022-02-09 22:49:31,675  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:49:31,675  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:49:55,588  INFO [main] BaseTest:162 - Add to Cart Button was clicked
+ 2022-02-09 22:49:59,353  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:50:06,210  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:50:06,210  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickOnChangeSizeFilter
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to change the size of the products 
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - Product Name : One Plus Tv
+ 2022-02-09 22:50:06,211  INFO [main] BaseTest:28 - Prerequirement : User should be on product page
+ 2022-02-09 22:50:06,212  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnChangeSizeFilter
+ 2022-02-09 22:50:06,212  INFO [main] BaseTest:28 - Expected Result : CLEAR ALL
+ 2022-02-09 22:50:06,212  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:50:06,212  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:50:30,412  INFO [main] BaseTest:379 - Size Button was clicked
+ 2022-02-09 22:50:34,167  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:50:39,531  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:50:39,531  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickOnProduct
+ 2022-02-09 22:50:39,531  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:50:39,531  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to click the product
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Prerequirement : User should be on product page
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnProduct
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Expected Result : One Plus- Buy Products Online at Best Price in India - All Categories | Flipkart.com
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:50:39,532  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:51:00,220  INFO [main] BaseTest:110 - Product was clicked
+ 2022-02-09 22:51:03,947  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:51:17,906  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:51:17,906  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickOnAddToCompareButton
+ 2022-02-09 22:51:17,906  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:51:17,907  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:51:17,907  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to compare products with each other 
+ 2022-02-09 22:51:17,907  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:51:17,907  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:51:17,908  INFO [main] BaseTest:28 - Prerequirement : User should be on product page
+ 2022-02-09 22:51:17,908  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnAddToCompareButton
+ 2022-02-09 22:51:17,908  INFO [main] BaseTest:28 - Expected Result : Show only differences
+ 2022-02-09 22:51:17,908  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:51:17,908  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:51:47,814  INFO [main] BaseTest:57 - Compare Button was clicked
+ 2022-02-09 22:51:51,570  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:51:56,652  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:51:56,652  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickOnAskExpertButton
+ 2022-02-09 22:51:56,653  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:51:56,653  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:51:56,653  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to chat with experts
+ 2022-02-09 22:51:56,653  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:51:56,654  INFO [main] BaseTest:28 - Product Name : One Plus Tv
+ 2022-02-09 22:51:56,654  INFO [main] BaseTest:28 - Prerequirement : User should be on particular product page
+ 2022-02-09 22:51:56,654  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnAskExpertButton
+ 2022-02-09 22:51:56,654  INFO [main] BaseTest:28 - Expected Result : My Chats
+ 2022-02-09 22:51:56,655  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:51:56,655  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:52:27,526  INFO [main] BaseTest:329 - Ask Expert Button was clicked
+ 2022-02-09 22:52:31,260  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:52:36,939  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickToRemoveItemFromCart
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to remove product from the cart
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:52:36,940  INFO [main] BaseTest:28 - Prerequirement : User should be on My cart page
+ 2022-02-09 22:52:36,941  INFO [main] BaseTest:28 - TestCaseName : whenUserClickToRemoveItemFromCart
+ 2022-02-09 22:52:36,941  INFO [main] BaseTest:28 - Expected Result : Your cart is empty!
+ 2022-02-09 22:52:36,941  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:52:36,941  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:53:15,150  INFO [main] BaseTest:273 - Remove Button was clicked
+ 2022-02-09 22:53:22,922  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:53:39,501  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:53:39,501  INFO [main] BaseTest:21 - Test Data For Worksheet Name ProductPageTestData And For Test Case whenUserClickToSaveForLater
+ 2022-02-09 22:53:39,501  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to add product into the Save for later
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Product Name : One Plus
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Prerequirement : User should be on My cart page
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - TestCaseName : whenUserClickToSaveForLater
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Expected Result : Saved For Later (1)
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:53:39,502  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:54:08,747  INFO [main] BaseTest:215 - Save for later Button was clicked
+ 2022-02-09 22:54:13,950  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:54:19,593  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:21 - Test Data For Worksheet Name OrderPageTestData And For Test Case whenUserClickOnOrderButton
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to see their ordered products details
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Prerequirement : User should be Logged in
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - TestCaseName : whenUserClickOnOrderButton
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Expected Result : Flipkart.com: Your Order History
+ 2022-02-09 22:54:19,594  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:54:19,595  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:54:29,274  INFO [main] BaseTest:52 - Order Button was clicked
+ 2022-02-09 22:54:29,975  INFO [main] BaseTest:158 - Browser closed...
+ 2022-02-09 22:54:34,947  INFO [main] BaseTest:18 - ----------------------------------------------------------------------
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:21 - Test Data For Worksheet Name OrderPageTestData And For Test Case whenUserFilterByOrderStatus
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - Working : yes
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - UserName : 8770095177
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - Description : This test case is for checking the user should be able to sort their ordered products by order status
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - Execution Required : yes
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - Prerequirement : User should be Logged in
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - TestCaseName : whenUserFilterByOrderStatus
+ 2022-02-09 22:54:34,948  INFO [main] BaseTest:28 - Expected Result : Clear all
+ 2022-02-09 22:54:34,950  INFO [main] BaseTest:28 - Password : Bhagyashree#123%
+ 2022-02-09 22:54:34,950  INFO [main] BaseTest:34 - ----------------------------------------------------------------------
+ 2022-02-09 22:54:42,992  INFO [main] BaseTest:158 - Browser closed...
+ 

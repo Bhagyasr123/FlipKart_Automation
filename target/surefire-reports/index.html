@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="removeItemFromCart">removeItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="sortingFunctionality">sortingFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="changePriceByFilter">changePriceByFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="changeProductSize">changeProductSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="checkReviewsAndRating">checkReviewsAndRating</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="clickFunctionality">clickFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductOrderPageTest" class="method navigator-link" hash-for-method="clickFunctionality">clickFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="clickOnAddToCompare">clickOnAddToCompare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="clickOnAskExpertButton">clickOnAskExpertButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="clickOnBackToButton">clickOnBackToButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="clickOnNextPageButtons">clickOnNextPageButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductOrderPageTest" class="method navigator-link" hash-for-method="filterByOrderStatus">filterByOrderStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.LoginPageTest" class="method navigator-link" hash-for-method="inValidLogIn">inValidLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="logoButtonFunctionality">logoButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.ProductPageTest" class="method navigator-link" hash-for-method="saveForLaterItemFromCart">saveForLaterItemFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="searchFunctionality">searchFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.LogoutPageTest" class="method navigator-link" hash-for-method="userLogout">userLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.LoginPageTest" class="method navigator-link" hash-for-method="validLogIn">validLogIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.selenium.flipkart_automation.tests.HomePageTest" class="method navigator-link" hash-for-method="wishlistFunctionality">wishlistFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingFunctionality">
+                  </a> <!-- sortingFunctionality -->
+                  <span class="method-name">sortingFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;_10UF8M _3LsR0e&quot;&gt;...&lt;/div&gt; is not clickable at point (730, 163). Other element would receive the click: &lt;a title=&quot;...&quot; class=&quot;_3QN6WI&quot; href=&quot;/home-furnishing/curtains-accessories/curtains/pr?sid=jra,sl5,2va&amp;amp;marketplace=FLIPKART&amp;amp;otracker=nmenu_sub_Home%20%26%20Furniture_0_Curtains&quot;&gt;Curtains&lt;/a&gt;
+  (Session info: chrome=98.0.4758.82)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BHAGYAMEENA1&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62364}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d0851c9f7069597cf9df1dc30dc7c11b
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.selenium.flipkart_automation.pages.HomePage.sortProduct(HomePage.java:141)
+	at com.selenium.flipkart_automation.tests.HomePageTest.sortingFunctionality(HomePageTest.java:100)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItemFromCart">
+                  </a> <!-- removeItemFromCart -->
+                  <span class="method-name">removeItemFromCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;._1LCJ1U&quot;}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BHAGYAMEENA1&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62772}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efb5545d7b0772ae4faf7a0a56ccbf76
+*** Element info: {Using=class name, value=_1LCJ1U}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.selenium.flipkart_automation.tests.ProductPageTest.removeItemFromCart(ProductPageTest.java:276)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.LogoutPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userLogout">
+                  </a> <!-- userLogout -->
+                  <span class="method-name">userLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePriceByFilter">
+                  </a> <!-- changePriceByFilter -->
+                  <span class="method-name">changePriceByFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkReviewsAndRating">
+                  </a> <!-- checkReviewsAndRating -->
+                  <span class="method-name">checkReviewsAndRating</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnBackToButton">
+                  </a> <!-- clickOnBackToButton -->
+                  <span class="method-name">clickOnBackToButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnNextPageButtons">
+                  </a> <!-- clickOnNextPageButtons -->
+                  <span class="method-name">clickOnNextPageButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoButtonFunctionality">
+                  </a> <!-- logoButtonFunctionality -->
+                  <span class="method-name">logoButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFunctionality">
+                  </a> <!-- searchFunctionality -->
+                  <span class="method-name">searchFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wishlistFunctionality">
+                  </a> <!-- wishlistFunctionality -->
+                  <span class="method-name">wishlistFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.ProductOrderPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickFunctionality">
+                  </a> <!-- clickFunctionality -->
+                  <span class="method-name">clickFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filterByOrderStatus">
+                  </a> <!-- filterByOrderStatus -->
+                  <span class="method-name">filterByOrderStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.ProductPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeProductSize">
+                  </a> <!-- changeProductSize -->
+                  <span class="method-name">changeProductSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickFunctionality">
+                  </a> <!-- clickFunctionality -->
+                  <span class="method-name">clickFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddToCompare">
+                  </a> <!-- clickOnAddToCompare -->
+                  <span class="method-name">clickOnAddToCompare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAskExpertButton">
+                  </a> <!-- clickOnAskExpertButton -->
+                  <span class="method-name">clickOnAskExpertButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="saveForLaterItemFromCart">
+                  </a> <!-- saveForLaterItemFromCart -->
+                  <span class="method-name">saveForLaterItemFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.flipkart_automation.tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inValidLogIn">
+                  </a> <!-- inValidLogIn -->
+                  <span class="method-name">inValidLogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLogIn">
+                  </a> <!-- validLogIn -->
+                  <span class="method-name">validLogIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhagyameena\Desktop\temp\FlipKartAutomationExtend\FlipKartAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;LoginPage&quot;/&gt;
+        &lt;include name=&quot;LogoutPage&quot;/&gt;
+        &lt;include name=&quot;HomePage&quot;/&gt;
+        &lt;include name=&quot;ProductPage&quot;/&gt;
+        &lt;include name=&quot;OrderPage&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.flipkart_automation.tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.flipkart_automation.tests.LogoutPageTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.flipkart_automation.tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.flipkart_automation.tests.ProductPageTest&quot;/&gt;
+      &lt;class name=&quot;com.selenium.flipkart_automation.tests.ProductOrderPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">HomePage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">changePriceByFilter</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkReviewsAndRating</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnBackToButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnNextPageButtons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logoButtonFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sortingFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">wishlistFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LoginPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">inValidLogIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validLogIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LogoutPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">userLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">OrderPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">filterByOrderStatus</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ProductPage</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">changeProductSize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickFunctionality</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnAddToCompare</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnAskExpertButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeItemFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">saveForLaterItemFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickOnBackToButton')
+data.setCell(0, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(0, 3, 425148);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'removeItemFromCart')
+data.setCell(1, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(1, 3, 48280);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnNextPageButtons')
+data.setCell(2, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(2, 3, 43107);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'wishlistFunctionality')
+data.setCell(3, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(3, 3, 37135);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'saveForLaterItemFromCart')
+data.setCell(4, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(4, 3, 32993);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickOnAskExpertButton')
+data.setCell(5, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(5, 3, 32069);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnAddToCompare')
+data.setCell(6, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(6, 3, 31251);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'userLogout')
+data.setCell(7, 2, 'com.selenium.flipkart_automation.tests.LogoutPageTest')
+data.setCell(7, 3, 29871);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'changePriceByFilter')
+data.setCell(8, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(8, 3, 29573);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkReviewsAndRating')
+data.setCell(9, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(9, 3, 29524);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'changeProductSize')
+data.setCell(10, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(10, 3, 27691);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addToCart')
+data.setCell(11, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(11, 3, 25844);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickFunctionality')
+data.setCell(12, 2, 'com.selenium.flipkart_automation.tests.ProductPageTest')
+data.setCell(12, 3, 21812);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'filterByOrderStatus')
+data.setCell(13, 2, 'com.selenium.flipkart_automation.tests.ProductOrderPageTest')
+data.setCell(13, 3, 15136);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchFunctionality')
+data.setCell(14, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(14, 3, 13801);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'logoButtonFunctionality')
+data.setCell(15, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(15, 3, 13046);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'sortingFunctionality')
+data.setCell(16, 2, 'com.selenium.flipkart_automation.tests.HomePageTest')
+data.setCell(16, 3, 10892);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickFunctionality')
+data.setCell(17, 2, 'com.selenium.flipkart_automation.tests.ProductOrderPageTest')
+data.setCell(17, 3, 10041);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'inValidLogIn')
+data.setCell(18, 2, 'com.selenium.flipkart_automation.tests.LoginPageTest')
+data.setCell(18, 3, 4479);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validLogIn')
+data.setCell(19, 2, 'com.selenium.flipkart_automation.tests.LoginPageTest')
+data.setCell(19, 3, 406);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">8 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.flipkart_automation.tests.LogoutPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.flipkart_automation.tests.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.flipkart_automation.tests.ProductOrderPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.flipkart_automation.tests.ProductPageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endReport</span>
+                <br/>
+                <span class="ignored-method-name">setExtent</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setExtent</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">98 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">8326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inValidLogIn</span>
+                <span class="method-start">9428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=inValidLogIn status=SUCCESS method=LoginPageTest.inValidLogIn()[pri:1, instance:com...)</span>
+                <span class="method-start">13908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=inValidLogIn status=SUCCESS method=LoginPageTest.inValidLogIn()[pri:1, instance:com...)</span>
+                <span class="method-start">13911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">14661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">19001 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLogIn</span>
+                <span class="method-start">20682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=validLogIn status=SUCCESS method=LoginPageTest.validLogIn()[pri:1, instance:com.sel...)</span>
+                <span class="method-start">21088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=validLogIn status=SUCCESS method=LoginPageTest.validLogIn()[pri:1, instance:com.sel...)</span>
+                <span class="method-start">21088 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.LogoutPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">21813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">25827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">userLogout</span>
+                <span class="method-start">27047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=userLogout status=SUCCESS method=LogoutPageTest.userLogout()[pri:1, instance:com.se...)</span>
+                <span class="method-start">56918 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=userLogout status=SUCCESS method=LogoutPageTest.userLogout()[pri:1, instance:com.se...)</span>
+                <span class="method-start">56920 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">57665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">64137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changePriceByFilter</span>
+                <span class="method-start">65270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=changePriceByFilter status=SUCCESS method=HomePageTest.changePriceByFilter()[pri:1,...)</span>
+                <span class="method-start">94843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=changePriceByFilter status=SUCCESS method=HomePageTest.changePriceByFilter()[pri:1,...)</span>
+                <span class="method-start">94844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">95567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">100283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkReviewsAndRating</span>
+                <span class="method-start">101446 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=checkReviewsAndRating status=SUCCESS method=HomePageTest.checkReviewsAndRating()[pr...)</span>
+                <span class="method-start">130971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=checkReviewsAndRating status=SUCCESS method=HomePageTest.checkReviewsAndRating()[pr...)</span>
+                <span class="method-start">130971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">131692 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">135855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnBackToButton</span>
+                <span class="method-start">136827 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickOnBackToButton status=SUCCESS method=HomePageTest.clickOnBackToButton()[pri:1,...)</span>
+                <span class="method-start">561975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickOnBackToButton status=SUCCESS method=HomePageTest.clickOnBackToButton()[pri:1,...)</span>
+                <span class="method-start">561975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">562748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">567122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnNextPageButtons</span>
+                <span class="method-start">568218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickOnNextPageButtons status=SUCCESS method=HomePageTest.clickOnNextPageButtons()[...)</span>
+                <span class="method-start">611325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickOnNextPageButtons status=SUCCESS method=HomePageTest.clickOnNextPageButtons()[...)</span>
+                <span class="method-start">611325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">612018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">615948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoButtonFunctionality</span>
+                <span class="method-start">617007 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=logoButtonFunctionality status=SUCCESS method=HomePageTest.logoButtonFunctionality(...)</span>
+                <span class="method-start">630053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=logoButtonFunctionality status=SUCCESS method=HomePageTest.logoButtonFunctionality(...)</span>
+                <span class="method-start">630053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">630849 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">634991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchFunctionality</span>
+                <span class="method-start">636048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=searchFunctionality status=SUCCESS method=HomePageTest.searchFunctionality()[pri:1,...)</span>
+                <span class="method-start">649849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=searchFunctionality status=SUCCESS method=HomePageTest.searchFunctionality()[pri:1,...)</span>
+                <span class="method-start">649849 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">650619 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">654727 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortingFunctionality</span>
+                <span class="method-start">655890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=sortingFunctionality status=FAILURE method=HomePageTest.sortingFunctionality()[pri:...)</span>
+                <span class="method-start">666792 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=sortingFunctionality status=FAILURE method=HomePageTest.sortingFunctionality()[pri:...)</span>
+                <span class="method-start">667018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">667938 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">672136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">wishlistFunctionality</span>
+                <span class="method-start">673245 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=wishlistFunctionality status=SUCCESS method=HomePageTest.wishlistFunctionality()[pr...)</span>
+                <span class="method-start">710381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=wishlistFunctionality status=SUCCESS method=HomePageTest.wishlistFunctionality()[pr...)</span>
+                <span class="method-start">710381 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.ProductPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">711074 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">715810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">716990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=addToCart status=SUCCESS method=ProductPageTest.addToCart()[pri:1, instance:com.sel...)</span>
+                <span class="method-start">742835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=addToCart status=SUCCESS method=ProductPageTest.addToCart()[pri:1, instance:com.sel...)</span>
+                <span class="method-start">742835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">743616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">748291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changeProductSize</span>
+                <span class="method-start">749584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=changeProductSize status=SUCCESS method=ProductPageTest.changeProductSize()[pri:1, ...)</span>
+                <span class="method-start">777276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=changeProductSize status=SUCCESS method=ProductPageTest.changeProductSize()[pri:1, ...)</span>
+                <span class="method-start">777276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">778045 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">782695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickFunctionality</span>
+                <span class="method-start">783838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickFunctionality status=SUCCESS method=ProductPageTest.clickFunctionality()[pri:1...)</span>
+                <span class="method-start">805650 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickFunctionality status=SUCCESS method=ProductPageTest.clickFunctionality()[pri:1...)</span>
+                <span class="method-start">805651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">806406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">810571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddToCompare</span>
+                <span class="method-start">811893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickOnAddToCompare status=SUCCESS method=ProductPageTest.clickOnAddToCompare()[pri...)</span>
+                <span class="method-start">843144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickOnAddToCompare status=SUCCESS method=ProductPageTest.clickOnAddToCompare()[pri...)</span>
+                <span class="method-start">843144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">843857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">848620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAskExpertButton</span>
+                <span class="method-start">849765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickOnAskExpertButton status=SUCCESS method=ProductPageTest.clickOnAskExpertButton...)</span>
+                <span class="method-start">881835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickOnAskExpertButton status=SUCCESS method=ProductPageTest.clickOnAskExpertButton...)</span>
+                <span class="method-start">881837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">882637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">887135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">removeItemFromCart</span>
+                <span class="method-start">888220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=removeItemFromCart status=FAILURE method=ProductPageTest.removeItemFromCart()[pri:1...)</span>
+                <span class="method-start">936502 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=removeItemFromCart status=FAILURE method=ProductPageTest.removeItemFromCart()[pri:1...)</span>
+                <span class="method-start">936810 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">937773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">944497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">saveForLaterItemFromCart</span>
+                <span class="method-start">945745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=saveForLaterItemFromCart status=SUCCESS method=ProductPageTest.saveForLaterItemFrom...)</span>
+                <span class="method-start">978738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=saveForLaterItemFromCart status=SUCCESS method=ProductPageTest.saveForLaterItemFrom...)</span>
+                <span class="method-start">978738 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.ProductOrderPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">979487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">983844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickFunctionality</span>
+                <span class="method-start">984974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=clickFunctionality status=SUCCESS method=ProductOrderPageTest.clickFunctionality()[...)</span>
+                <span class="method-start">995015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=clickFunctionality status=SUCCESS method=ProductOrderPageTest.clickFunctionality()[...)</span>
+                <span class="method-start">995015 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializewebdriver</span>
+                <span class="method-start">995759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openUrl</span>
+                <span class="method-start">1000008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">filterByOrderStatus</span>
+                <span class="method-start">1001060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">attachScreenshot([TestResult name=filterByOrderStatus status=SUCCESS method=ProductOrderPageTest.filterByOrderStatus(...)</span>
+                <span class="method-start">1016196 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser([TestResult name=filterByOrderStatus status=SUCCESS method=ProductOrderPageTest.filterByOrderStatus(...)</span>
+                <span class="method-start">1016196 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.flipkart_automation.tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">1016974 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

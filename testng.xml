@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   <groups>
+   <run> 
+    <include name= "LoginPage" />
+    <include name= "LogoutPage" />
+    <include name= "HomePage" />
+   <include name= "ProductPage" /> 
+    <include name= "OrderPage" />
+<!--     <include name= "abc" />  -->
+    </run>
+       
+  </groups>
+    <classes>
+    <class name="com.selenium.flipkart_automation.tests.LoginPageTest"/>
+    <class name="com.selenium.flipkart_automation.tests.LogoutPageTest"/>
+    <class name="com.selenium.flipkart_automation.tests.HomePageTest"/>
+    <class name="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+    <class name="com.selenium.flipkart_automation.tests.ProductOrderPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="LoginPage"/>
+        <include name="LogoutPage"/>
+        <include name="HomePage"/>
+        <include name="ProductPage"/>
+        <include name="OrderPage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.flipkart_automation.tests.HomePageTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="initializewebdriver"/>
+          <include name="sortingFunctionality"/>
+          <include name="attachScreenshot"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.selenium.flipkart_automation.tests.HomePageTest -->
+      <class name="com.selenium.flipkart_automation.tests.ProductPageTest">
+        <methods>
+          <include name="openUrl"/>
+          <include name="closeBrowser"/>
+          <include name="endReport"/>
+          <include name="initializewebdriver"/>
+          <include name="attachScreenshot"/>
+          <include name="removeItemFromCart"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.selenium.flipkart_automation.tests.ProductPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

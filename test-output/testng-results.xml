@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="28" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-09T17:14:31Z" name="Suite" finished-at="2022-02-09T17:24:43Z" duration-ms="611705">
+    <groups>
+      <group name="ProductPage">
+        <method signature="ProductPageTest.addToCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="addToCart" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.changeProductSize()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="changeProductSize" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="clickFunctionality" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.clickOnAddToCompare()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="clickOnAddToCompare" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.clickOnAskExpertButton()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="clickOnAskExpertButton" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.removeItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="removeItemFromCart" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+        <method signature="ProductPageTest.saveForLaterItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" name="saveForLaterItemFromCart" class="com.selenium.flipkart_automation.tests.ProductPageTest"/>
+      </group> <!-- ProductPage -->
+      <group name="HomePage">
+        <method signature="HomePageTest.changePriceByFilter()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="changePriceByFilter" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.checkReviewsAndRating()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="checkReviewsAndRating" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.clickOnBackToButton()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="clickOnBackToButton" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.clickOnNextPageButtons()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="clickOnNextPageButtons" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.logoButtonFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="logoButtonFunctionality" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.searchFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="searchFunctionality" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.sortingFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="sortingFunctionality" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+        <method signature="HomePageTest.wishlistFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" name="wishlistFunctionality" class="com.selenium.flipkart_automation.tests.HomePageTest"/>
+      </group> <!-- HomePage -->
+      <group name="OrderPage">
+        <method signature="ProductOrderPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" name="clickFunctionality" class="com.selenium.flipkart_automation.tests.ProductOrderPageTest"/>
+        <method signature="ProductOrderPageTest.filterByOrderStatus()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" name="filterByOrderStatus" class="com.selenium.flipkart_automation.tests.ProductOrderPageTest"/>
+      </group> <!-- OrderPage -->
+      <group name="LogoutPage">
+        <method signature="LogoutPageTest.userLogout()[pri:1, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" name="userLogout" class="com.selenium.flipkart_automation.tests.LogoutPageTest"/>
+      </group> <!-- LogoutPage -->
+      <group name="LoginPage">
+        <method signature="LoginPageTest.inValidLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" name="inValidLogIn" class="com.selenium.flipkart_automation.tests.LoginPageTest"/>
+        <method signature="LoginPageTest.validLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" name="validLogIn" class="com.selenium.flipkart_automation.tests.LoginPageTest"/>
+      </group> <!-- LoginPage -->
+    </groups>
+    <test started-at="2022-02-09T17:14:31Z" name="Test" finished-at="2022-02-09T17:24:43Z" duration-ms="611705">
+      <class name="com.selenium.flipkart_automation.tests.ProductPageTest">
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:26Z" name="initializewebdriver" finished-at="2022-02-09T17:19:30Z" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:30Z" name="openUrl" finished-at="2022-02-09T17:19:31Z" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="addToCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:31Z" name="addToCart" finished-at="2022-02-09T17:19:58Z" duration-ms="26933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:58Z" name="closeBrowser" finished-at="2022-02-09T17:19:59Z" duration-ms="747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=ProductPageTest.addToCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:58Z" name="attachScreenshot" finished-at="2022-02-09T17:19:58Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=ProductPageTest.addToCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:19:59Z" name="initializewebdriver" finished-at="2022-02-09T17:20:05Z" duration-ms="5933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:05Z" name="openUrl" finished-at="2022-02-09T17:20:06Z" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="changeProductSize()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:06Z" name="changeProductSize" finished-at="2022-02-09T17:20:33Z" duration-ms="27264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeProductSize -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:33Z" name="attachScreenshot" finished-at="2022-02-09T17:20:33Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeProductSize status=SUCCESS method=ProductPageTest.changeProductSize()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:33Z" name="closeBrowser" finished-at="2022-02-09T17:20:34Z" duration-ms="694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeProductSize status=SUCCESS method=ProductPageTest.changeProductSize()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:34Z" name="initializewebdriver" finished-at="2022-02-09T17:20:38Z" duration-ms="4390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:38Z" name="openUrl" finished-at="2022-02-09T17:20:39Z" duration-ms="971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:20:39Z" name="clickFunctionality" finished-at="2022-02-09T17:21:03Z" duration-ms="23710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:03Z" name="closeBrowser" finished-at="2022-02-09T17:21:03Z" duration-ms="708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickFunctionality status=SUCCESS method=ProductPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:03Z" name="attachScreenshot" finished-at="2022-02-09T17:21:03Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickFunctionality status=SUCCESS method=ProductPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:03Z" name="initializewebdriver" finished-at="2022-02-09T17:21:08Z" duration-ms="4436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:08Z" name="openUrl" finished-at="2022-02-09T17:21:17Z" duration-ms="9520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnAddToCompare()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:17Z" name="clickOnAddToCompare" finished-at="2022-02-09T17:21:50Z" duration-ms="32974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAddToCompare -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:50Z" name="closeBrowser" finished-at="2022-02-09T17:21:51Z" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAddToCompare status=SUCCESS method=ProductPageTest.clickOnAddToCompare()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:50Z" name="attachScreenshot" finished-at="2022-02-09T17:21:50Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAddToCompare status=SUCCESS method=ProductPageTest.clickOnAddToCompare()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:51Z" name="initializewebdriver" finished-at="2022-02-09T17:21:55Z" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:55Z" name="openUrl" finished-at="2022-02-09T17:21:56Z" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnAskExpertButton()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:21:56Z" name="clickOnAskExpertButton" finished-at="2022-02-09T17:22:30Z" duration-ms="33894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAskExpertButton -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:22:30Z" name="attachScreenshot" finished-at="2022-02-09T17:22:30Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAskExpertButton status=SUCCESS method=ProductPageTest.clickOnAskExpertButton()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:22:30Z" name="closeBrowser" finished-at="2022-02-09T17:22:31Z" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnAskExpertButton status=SUCCESS method=ProductPageTest.clickOnAskExpertButton()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:22:31Z" name="initializewebdriver" finished-at="2022-02-09T17:22:35Z" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:22:35Z" name="openUrl" finished-at="2022-02-09T17:22:36Z" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="removeItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:22:36Z" name="removeItemFromCart" finished-at="2022-02-09T17:23:22Z" duration-ms="45302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCart -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:23:22Z" name="attachScreenshot" finished-at="2022-02-09T17:23:22Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemFromCart status=SUCCESS method=ProductPageTest.removeItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:23:22Z" name="closeBrowser" finished-at="2022-02-09T17:23:22Z" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItemFromCart status=SUCCESS method=ProductPageTest.removeItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:23:22Z" name="initializewebdriver" finished-at="2022-02-09T17:23:38Z" duration-ms="15466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:23:38Z" name="openUrl" finished-at="2022-02-09T17:23:39Z" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="saveForLaterItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:23:39Z" name="saveForLaterItemFromCart" finished-at="2022-02-09T17:24:13Z" duration-ms="33758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveForLaterItemFromCart -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:24:13Z" name="attachScreenshot" finished-at="2022-02-09T17:24:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveForLaterItemFromCart status=SUCCESS method=ProductPageTest.saveForLaterItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9]" started-at="2022-02-09T17:24:13Z" name="closeBrowser" finished-at="2022-02-09T17:24:13Z" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveForLaterItemFromCart status=SUCCESS method=ProductPageTest.saveForLaterItemFromCart()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductPageTest@b7838a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.flipkart_automation.tests.ProductPageTest -->
+      <class name="com.selenium.flipkart_automation.tests.LogoutPageTest">
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" started-at="2022-02-09T17:14:48Z" name="initializewebdriver" finished-at="2022-02-09T17:14:52Z" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" started-at="2022-02-09T17:14:52Z" name="openUrl" finished-at="2022-02-09T17:14:53Z" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="userLogout()[pri:1, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" started-at="2022-02-09T17:14:53Z" name="userLogout" finished-at="2022-02-09T17:15:15Z" duration-ms="22483" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[10]/a[1]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79b9d19dee3a706e9c5cf89327c8d2d9
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[10]/a[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[10]/a[1]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 79b9d19dee3a706e9c5cf89327c8d2d9
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[10]/a[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.selenium.flipkart_automation.pages.LogoutPage.clickLogout(LogoutPage.java:42)
+at com.selenium.flipkart_automation.tests.LogoutPageTest.userLogout(LogoutPageTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" started-at="2022-02-09T17:15:15Z" name="attachScreenshot" finished-at="2022-02-09T17:15:16Z" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLogout status=FAILURE method=LogoutPageTest.userLogout()[pri:1, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5]" started-at="2022-02-09T17:15:16Z" name="closeBrowser" finished-at="2022-02-09T17:15:17Z" duration-ms="942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLogout status=FAILURE method=LogoutPageTest.userLogout()[pri:1, instance:com.selenium.flipkart_automation.tests.LogoutPageTest@435fb7b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.flipkart_automation.tests.LogoutPageTest -->
+      <class name="com.selenium.flipkart_automation.tests.LoginPageTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:31Z" name="setExtent" finished-at="2022-02-09T17:14:31Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:31Z" name="initializewebdriver" finished-at="2022-02-09T17:14:35Z" duration-ms="3973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:35Z" name="openUrl" finished-at="2022-02-09T17:14:36Z" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="inValidLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:36Z" name="inValidLogIn" finished-at="2022-02-09T17:14:41Z" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidLogIn -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:41Z" name="attachScreenshot" finished-at="2022-02-09T17:14:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inValidLogIn status=SUCCESS method=LoginPageTest.inValidLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:41Z" name="closeBrowser" finished-at="2022-02-09T17:14:41Z" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inValidLogIn status=SUCCESS method=LoginPageTest.inValidLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:41Z" name="initializewebdriver" finished-at="2022-02-09T17:14:46Z" duration-ms="4411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:46Z" name="openUrl" finished-at="2022-02-09T17:14:47Z" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="validLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:47Z" name="validLogIn" finished-at="2022-02-09T17:14:47Z" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogIn -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:47Z" name="attachScreenshot" finished-at="2022-02-09T17:14:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogIn status=SUCCESS method=LoginPageTest.validLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:14:47Z" name="closeBrowser" finished-at="2022-02-09T17:14:48Z" duration-ms="703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogIn status=SUCCESS method=LoginPageTest.validLogIn()[pri:1, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.selenium.flipkart_automation.tests.LoginPageTest@4e858e0a]" started-at="2022-02-09T17:24:42Z" name="endReport" finished-at="2022-02-09T17:24:43Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.selenium.flipkart_automation.tests.LoginPageTest -->
+      <class name="com.selenium.flipkart_automation.tests.HomePageTest">
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:17Z" name="initializewebdriver" finished-at="2022-02-09T17:15:21Z" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:21Z" name="openUrl" finished-at="2022-02-09T17:15:22Z" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="changePriceByFilter()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:22Z" name="changePriceByFilter" finished-at="2022-02-09T17:15:53Z" duration-ms="31428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePriceByFilter -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:53Z" name="attachScreenshot" finished-at="2022-02-09T17:15:53Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changePriceByFilter status=SUCCESS method=HomePageTest.changePriceByFilter()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:53Z" name="closeBrowser" finished-at="2022-02-09T17:15:54Z" duration-ms="720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changePriceByFilter status=SUCCESS method=HomePageTest.changePriceByFilter()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:54Z" name="initializewebdriver" finished-at="2022-02-09T17:15:58Z" duration-ms="4398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:15:58Z" name="openUrl" finished-at="2022-02-09T17:16:00Z" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="checkReviewsAndRating()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:00Z" name="checkReviewsAndRating" finished-at="2022-02-09T17:16:31Z" duration-ms="31452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkReviewsAndRating -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:31Z" name="attachScreenshot" finished-at="2022-02-09T17:16:31Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkReviewsAndRating status=SUCCESS method=HomePageTest.checkReviewsAndRating()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:31Z" name="closeBrowser" finished-at="2022-02-09T17:16:32Z" duration-ms="711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkReviewsAndRating status=SUCCESS method=HomePageTest.checkReviewsAndRating()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:32Z" name="initializewebdriver" finished-at="2022-02-09T17:16:36Z" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:36Z" name="openUrl" finished-at="2022-02-09T17:16:37Z" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnBackToButton()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:16:37Z" name="clickOnBackToButton" finished-at="2022-02-09T17:17:00Z" duration-ms="23395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBackToButton -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:00Z" name="closeBrowser" finished-at="2022-02-09T17:17:01Z" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBackToButton status=SUCCESS method=HomePageTest.clickOnBackToButton()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:00Z" name="attachScreenshot" finished-at="2022-02-09T17:17:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnBackToButton status=SUCCESS method=HomePageTest.clickOnBackToButton()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:01Z" name="initializewebdriver" finished-at="2022-02-09T17:17:06Z" duration-ms="4503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:06Z" name="openUrl" finished-at="2022-02-09T17:17:07Z" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickOnNextPageButtons()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:07Z" name="clickOnNextPageButtons" finished-at="2022-02-09T17:17:40Z" duration-ms="32814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnNextPageButtons -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:40Z" name="attachScreenshot" finished-at="2022-02-09T17:17:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNextPageButtons status=SUCCESS method=HomePageTest.clickOnNextPageButtons()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:40Z" name="closeBrowser" finished-at="2022-02-09T17:17:40Z" duration-ms="699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnNextPageButtons status=SUCCESS method=HomePageTest.clickOnNextPageButtons()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:40Z" name="initializewebdriver" finished-at="2022-02-09T17:17:47Z" duration-ms="7056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:47Z" name="openUrl" finished-at="2022-02-09T17:17:48Z" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="logoButtonFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:17:48Z" name="logoButtonFunctionality" finished-at="2022-02-09T17:18:00Z" duration-ms="11890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoButtonFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:00Z" name="closeBrowser" finished-at="2022-02-09T17:18:01Z" duration-ms="708" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoButtonFunctionality status=SUCCESS method=HomePageTest.logoButtonFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:00Z" name="attachScreenshot" finished-at="2022-02-09T17:18:00Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoButtonFunctionality status=SUCCESS method=HomePageTest.logoButtonFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:01Z" name="initializewebdriver" finished-at="2022-02-09T17:18:06Z" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:06Z" name="openUrl" finished-at="2022-02-09T17:18:07Z" duration-ms="1047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="searchFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:07Z" name="searchFunctionality" finished-at="2022-02-09T17:18:22Z" duration-ms="15613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:22Z" name="attachScreenshot" finished-at="2022-02-09T17:18:22Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFunctionality status=SUCCESS method=HomePageTest.searchFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:22Z" name="closeBrowser" finished-at="2022-02-09T17:18:23Z" duration-ms="696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFunctionality status=SUCCESS method=HomePageTest.searchFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:23Z" name="initializewebdriver" finished-at="2022-02-09T17:18:28Z" duration-ms="4405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:28Z" name="openUrl" finished-at="2022-02-09T17:18:28Z" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="sortingFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:28Z" name="sortingFunctionality" finished-at="2022-02-09T17:18:40Z" duration-ms="11755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortingFunctionality -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:40Z" name="attachScreenshot" finished-at="2022-02-09T17:18:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingFunctionality status=SUCCESS method=HomePageTest.sortingFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:40Z" name="closeBrowser" finished-at="2022-02-09T17:18:41Z" duration-ms="701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortingFunctionality status=SUCCESS method=HomePageTest.sortingFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:41Z" name="initializewebdriver" finished-at="2022-02-09T17:18:45Z" duration-ms="3702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:45Z" name="openUrl" finished-at="2022-02-09T17:18:46Z" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="wishlistFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:18:46Z" name="wishlistFunctionality" finished-at="2022-02-09T17:19:25Z" duration-ms="39089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:19:25Z" name="closeBrowser" finished-at="2022-02-09T17:19:26Z" duration-ms="697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistFunctionality status=SUCCESS method=HomePageTest.wishlistFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728]" started-at="2022-02-09T17:19:25Z" name="attachScreenshot" finished-at="2022-02-09T17:19:25Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistFunctionality status=SUCCESS method=HomePageTest.wishlistFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.HomePageTest@4e70a728] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+      </class> <!-- com.selenium.flipkart_automation.tests.HomePageTest -->
+      <class name="com.selenium.flipkart_automation.tests.ProductOrderPageTest">
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:13Z" name="initializewebdriver" finished-at="2022-02-09T17:24:18Z" duration-ms="4387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:18Z" name="openUrl" finished-at="2022-02-09T17:24:19Z" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:19Z" name="clickFunctionality" finished-at="2022-02-09T17:24:29Z" duration-ms="9686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFunctionality -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:29Z" name="closeBrowser" finished-at="2022-02-09T17:24:29Z" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickFunctionality status=SUCCESS method=ProductOrderPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:29Z" name="attachScreenshot" finished-at="2022-02-09T17:24:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickFunctionality status=SUCCESS method=ProductOrderPageTest.clickFunctionality()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="initializewebdriver()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:29Z" name="initializewebdriver" finished-at="2022-02-09T17:24:33Z" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializewebdriver -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:33Z" name="openUrl" finished-at="2022-02-09T17:24:34Z" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="filterByOrderStatus()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:34Z" name="filterByOrderStatus" finished-at="2022-02-09T17:24:41Z" duration-ms="6553" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/a[1]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efe40ab7cdd7fd06c22a82bbbd3637a2
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/a[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/a[1]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BHAGYAMEENA1', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\BHAGYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efe40ab7cdd7fd06c22a82bbbd3637a2
+*** Element info: {Using=xpath, value=/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/a[1]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.selenium.flipkart_automation.pages.ProductOrderPage.clickOnOrderButton(ProductOrderPage.java:64)
+at com.selenium.flipkart_automation.tests.ProductOrderPageTest.filterByOrderStatus(ProductOrderPageTest.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterByOrderStatus -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:41Z" name="attachScreenshot" finished-at="2022-02-09T17:24:41Z" duration-ms="342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByOrderStatus status=FAILURE method=ProductOrderPageTest.filterByOrderStatus()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212]" started-at="2022-02-09T17:24:41Z" name="closeBrowser" finished-at="2022-02-09T17:24:42Z" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterByOrderStatus status=FAILURE method=ProductOrderPageTest.filterByOrderStatus()[pri:1, instance:com.selenium.flipkart_automation.tests.ProductOrderPageTest@696f0212] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.flipkart_automation.tests.ProductOrderPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

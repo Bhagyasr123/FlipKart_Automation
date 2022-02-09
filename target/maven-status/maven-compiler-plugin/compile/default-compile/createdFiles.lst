@@ -1,0 +1,6 @@
+com\selenium\flipkart_automation\pages\HomePage.class
+com\selenium\flipkart_automation\pages\LoginPage.class
+com\selenium\flipkart_automation\pages\ProductOrderPage.class
+com\selenium\flipkart_automation\pages\ScreenShots.class
+com\selenium\flipkart_automation\pages\LogoutPage.class
+com\selenium\flipkart_automation\pages\ProductPage.class

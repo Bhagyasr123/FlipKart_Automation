@@ -27,7 +27,7 @@ This is a [FlipKart](https://www.flipkart.com/) Automation Maven Project build b
 ## How to run
 
 - Clone repo from the github link
-- gitHub link :- **https://github.com/ssssssssssssssss/Flipkart_Automation**
+- gitHub link :- **https://github.com/Bhagyasr123/FlipKart_Automation**
 - run RunAssignment.bat
 
 ## Important Note

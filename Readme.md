@@ -24,11 +24,8 @@ This is a [FlipKart](https://www.flipkart.com/) Automation Maven Project build b
 - *@AfterTest*   - to run before test
 
 
-## How to run
-
-- Clone repo from the github link
+## How to run on github
 - gitHub link :- **https://github.com/Bhagyasr123/FlipKart_Automation**
-- run RunAssignment.bat
 
 ## Important Note
 
